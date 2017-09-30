@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Homework #5: Triva Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+  <div id="quiz">
+    <h1>The Randomly Easy and Hard Quiz:</h1><br>
+    <button type="button" class="btn btn-primary" id="start">Click to Start</button>
+    <div id="countdown"></div>
+    <ul>
+  <li>
+    <h2>1.) What is the capital of Canada?</h2>
+      <input type="radio" name="question0" value="A">Toronto<br>
+      <input type="radio" name="question0" value="B">Ontario<br>
+      <input type="radio" name="question0" value="C">Quebec<br>
+      <input type="radio" name="question0" value="D">Ottowa<br>
+  </li>
+  <li>
+    <h2>2.) What is the process called when milk turns into yogurt?</h2>
+      <input type="radio" name="question1" value="A">Mold<br>
+      <input type="radio" name="question1" value="B">Bacterial Fermentation<br>
+      <input type="radio" name="question1" value="C">Protein Synthesis<br>
+      <input type="radio" name="question1" value="D">Homogenized Process<br>
+  </li>
+  <li>
+    <h2>3.) Which is not an insect?</h2>
+      <input type="radio" name="question2" value="A">Mosquito<br>
+      <input type="radio" name="question2" value="B">Flea<br>
+      <input type="radio" name="question2" value="C">Tick<br>
+      <input type="radio" name="question2" value="D">Spider<br>
+  </li>
+  <li>
+    <h2>4.) Which Cognac brand is not produced in the iconic region of Cognac, France?</h2>
+      <input type="radio" name="question3" value="A">Hennessy<br>
+      <input type="radio" name="question3" value="B">Remy Martin<br>
+      <input type="radio" name="question3" value="C">Courvoisier<br>
+      <input type="radio" name="question3" value="D">Martell<br>
+  </li>
+  <li>
+    <h2>5.) How many times has Italy won the World Cup?</h2>
+      <input type="radio" name="question4" value="A">4<br>
+      <input type="radio" name="question4" value="B">5<br>
+      <input type="radio" name="question4" value="C">2<br>
+      <input type="radio" name="question4" value="D">3<br>
+  </li>
+  <li>
+    <h2>6.) What is the capital of Ohio?</h2>
+      <input type="radio" name="question5" value="A">Cleveland<br>
+      <input type="radio" name="question5" value="B">Columbus<br>
+      <input type="radio" name="question5" value="C">Cincinnatti<br>
+      <input type="radio" name="question5" value="D">Akron<br>
+  </li>
+  <li>
+    <h2>7.) Which Shotokan Karate kata translates to "Flying Swallow"?</h2>
+      <input type="radio" name="question6" value="A">Gankaku<br>
+      <input type="radio" name="question6" value="B">Empi<br>
+      <input type="radio" name="question6" value="C">Heian Yodan<br>
+      <input type="radio" name="question6" value="D">Bassai<br>
+  </li>
+  <li>
+    <h2>8.) Which is the world's tallest building?</h2>
+      <input type="radio" name="question7" value="A">One World Trade<br>
+      <input type="radio" name="question7" value="B">Sears Tower<br>
+      <input type="radio" name="question7" value="C">Burj Khalifa<br>
+      <input type="radio" name="question7" value="D">Petronas Towers<br>
+  </li>
+  <li>
+    <h2>9.) What is the name of Jay-Z + Grateful Dead mashup album produced by the Spinjunkies?</h2>
+      <input type="radio" name="question8" value="A">Jay-Z's DEAD<br>
+      <input type="radio" name="question8" value="B">Marcy Shakedown<br>
+      <input type="radio" name="question8" value="C">Grateful Jay<br>
+      <input type="radio" name="question8" value="D">The Skull and Lightning Album<br>
+  </li>
+  <li>
+    <h2>10.) Where is the most-rumored location of the Ark of the Covenant?</h2>
+      <input type="radio" name="question9" value="A">Eritrea<br>
+      <input type="radio" name="question9" value="B">Mount Nebo<br>
+      <input type="radio" name="question9" value="C">Chartes Cathedral<br>
+      <input type="radio" name="question9" value="D">Axum<br>
+  </li>
+  </ul>
+  <br>
+  <br>
+  <button id="results" class="btn btn-success">Submit</button>
+  <br><br>
+  <div style="display: none;" id="hiddenText">1. D. Ottowa; 2. B. Bacterial Fermentation; 3. C. Tick; 4. Courvoisier; 5. A. 4; 6. B. Columbus; 7. B. Empi, 8. C. Burj Khalifa, 9. A. Jay-Z's DEAD, 10. D. Axum </div>
+  <a href="#" background-color="red" onclick="document.getElementById('hiddenText').style.display='block'; return false;">Click here to show answers!</a>
+  <br><br>
+  <a href="http://www.shutterstock.com">BACKGROUND IMAGE FROM SHUTTERSTOCK.COM</a>
+  </div>
+</div>
+
+</body>
+</html>

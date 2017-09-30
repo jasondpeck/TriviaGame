@@ -1,0 +1,51 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+li {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#quiz {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	background-color: white;
+	background: rgba(255, 249, 192, 0.3);
+	font-weight: bolder;
+	font-size:18px;
+}
+
+#start {
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+#countdown {
+	font-size: 30px;
+	color: red;
+}
