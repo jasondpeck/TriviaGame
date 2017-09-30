@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 //declearing variables for countdown timer, the correct answer choices in order of questions, and "total is equal to the length of the answers variable" for the loop
-  var number = 50;
+  var number = 60;
   var answers = ["D","B","C","C","A","B","B","C","A","D"];
   var tot = answers.length;
 
